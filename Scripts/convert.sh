@@ -13,6 +13,8 @@ do
     <string>$name</string>
     <key>CFBundleIdentifier</key>
     <string>io.github.kewlbear.$name</string>
+    <key>MinimumOSVersion</key>
+    <string>17</string>
     <key>CFBundleInfoDictionaryVersion</key>
     <string>6.0</string>
     <key>CFBundleName</key>
