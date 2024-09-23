@@ -15,6 +15,8 @@ do
     <string>io.github.kewlbear.$name</string>
     <key>MinimumOSVersion</key>
     <string>17.0</string>
+    <key>CFBundleShortVersionString</key>
+    <string>1.1</string>
     <key>CFBundleInfoDictionaryVersion</key>
     <string>6.0</string>
     <key>CFBundleName</key>
