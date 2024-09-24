@@ -22,7 +22,7 @@ jobs:
       run: sh Scripts/all.sh ${{ steps.pod.outputs.version }}
     - name: Commit
       if: ${{ steps.pod.outputs.version }}
-      uses: EndBug/add-and-commit@v8
+      uses: EndBug/add-and-commit@v9
       with:
         add: 'Package.swift'
         message: "add ${{ steps.pod.outputs.version }}"
@@ -50,7 +50,7 @@ jobs:
       run: sh Scripts/all.sh ${{ steps.pod.outputs.version }}
     - name: Commit
       if: ${{ steps.pod.outputs.version }}
-      uses: EndBug/add-and-commit@v8
+      uses: EndBug/add-and-commit@v9
       with:
         add: 'Package.swift'
         message: "add ${{ steps.pod.outputs.version }}"
