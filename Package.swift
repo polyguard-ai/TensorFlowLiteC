@@ -16,9 +16,9 @@ let package = Package(
         ),
     ],
     targets: [
-        .binaryTarget(name: "TensorFlowLiteC", url: "https://github.com/polyguard-ai/TensorFlowLiteC/releases/download/0.0.20241111/TensorFlowLiteC.xcframework.zip", checksum: "36206ecd77d741df7cbd98df58dbc771a7c628e4f4d3bc61bf164624563f8d56"),
-        .binaryTarget(name: "TensorFlowLiteCCoreML", url: "https://github.com/polyguard-ai/TensorFlowLiteC/releases/download/0.0.20241111/TensorFlowLiteCCoreML.xcframework.zip", checksum: "29b9e8509d59f17b98c6b34380aba1951bc008096b8418ef3e61743f9a3c3993"),
-        .binaryTarget(name: "TensorFlowLiteCMetal", url: "https://github.com/polyguard-ai/TensorFlowLiteC/releases/download/0.0.20241111/TensorFlowLiteCMetal.xcframework.zip", checksum: "61be1ab997582c3c73354f7d8c042dab5b29df9413c39df71239b4ce03320736"),
+        .binaryTarget(name: "TensorFlowLiteC", url: "https://github.com/polyguard-ai/TensorFlowLiteC/releases/download/0.0.20241112/TensorFlowLiteC.xcframework.zip", checksum: "56c2652227287d4e3f88e61ae449422254772bdeedf146e676a24e6acbc34bcd"),
+        .binaryTarget(name: "TensorFlowLiteCCoreML", url: "https://github.com/polyguard-ai/TensorFlowLiteC/releases/download/0.0.20241112/TensorFlowLiteCCoreML.xcframework.zip", checksum: "8692fa8226f0698788319f341536d67666c0dd523fb978fd1a5fd8bcbf91e30d"),
+        .binaryTarget(name: "TensorFlowLiteCMetal", url: "https://github.com/polyguard-ai/TensorFlowLiteC/releases/download/0.0.20241112/TensorFlowLiteCMetal.xcframework.zip", checksum: "2a0f36b0b75c5c2b48371dfe32442a35319f91c5ff5bb86668052abdf6af0d26"),
         .target(name: "Link",
                 linkerSettings: [.linkedLibrary("c++")]),
     ]
